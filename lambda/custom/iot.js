@@ -7,8 +7,8 @@ config.IOT_BROKER_ENDPOINT      = "a225gcmxqu0ixq.iot.us-east-1.amazonaws.com"; 
 config.IOT_BROKER_REGION        = "us-east-1";  // eu-west-1 corresponds to the Oregeon Region.  Use us-east-1 for the N. Virginia region
 config.IOT_THING_NAME           = "EchoButton";
 config.IOT_TOPIC_NAME           = "thing/EchoButton";
-config.IOT_ACCESSKEY_ID         = "AKIAJZGSILLO274B5A5A";
-config.IOT_SECRET_ACCESSKEY     = "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";
+config.IOT_ACCESSKEY_ID         = "";
+config.IOT_SECRET_ACCESSKEY     = "";
 
 var iotdata = new AWS.IotData({endpoint: config.IOT_BROKER_ENDPOINT});
 
